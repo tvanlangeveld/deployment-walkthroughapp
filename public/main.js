@@ -11,6 +11,8 @@ myButton.addEventListener('click', () => {
     let newP = document.createElement('p')
     newP.innerHTML = catName
     myDiv.appendChild(newP)
+    console.log(res.data)
+
 
   }).catch((err) => {
     console.log(err)
